@@ -1,0 +1,35 @@
+footer {
+    background-color: #f8f9fa;
+  }
+  
+  footer h5 {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  footer a {
+    color: #6c757d;
+    transition: color 0.2s;
+  }
+  
+  footer a:hover {
+    color: #28a745;
+    text-decoration: underline;
+  }
+  
+  .social-icons a i {
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #28a745;
+  }
+  
+  input.form-control {
+    border-radius: 25px 0 0 25px;
+  }
+  
+  button.btn-success {
+    border-radius: 0 25px 25px 0;
+  }
+  

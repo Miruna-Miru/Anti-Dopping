@@ -1,0 +1,103 @@
+:root {
+    --accent-color: #5fcf80; /* Your accent color */
+    --surface-color: white;   /* Your surface color */
+  }
+  
+  .courses{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .courses .course-item {
+    background-color: var(--surface-color);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
+    border-radius: 5px;
+  }
+  
+  .course-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  courses .course-item {
+    background-color: var(--surface-color);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
+    border-radius: 5px;
+  }
+  
+  .courses .course-content {
+    padding: 15px;
+  }
+  
+  .courses .course-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .courses .course-content h3 a {
+    color: var(--heading-color);
+    transition: 0.3s;
+  }
+  
+  .courses .course-content h3 a:hover {
+    color: var(--accent-color);
+  }
+  
+  .courses .course-content .category {
+    background: var(--accent-color);
+    color: white;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  .courses .course-content .price {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: color-mix(in srgb, rgb(60, 57, 57), transparent 20%);
+  }
+  
+  .courses .course-content .description {
+    font-size: 14px;
+    color: color-mix(in srgb, rgb(60, 57, 57), transparent 20%);
+  }
+  
+  .courses .trainer {
+    padding-top: 15px;
+    border-top: 1px solid color-mix(in srgb, rgb(60, 57, 57), transparent 90%);
+  }
+  
+  .courses .trainer .trainer-profile img {
+    max-width: 50px;
+    border-radius: 50px;
+  }
+  
+  .courses .trainer .trainer-profile .trainer-link {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: color-mix(in srgb, rgb(60, 57, 57), transparent 20%);
+    transition: 0.3s;
+  }
+  
+  .courses .trainer .trainer-profile .trainer-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .courses .trainer .trainer-rank {
+    font-size: 18px;
+    color: color-mix(in srgb, rgb(60, 57, 57), transparent 60%);
+  }
+  
+  .courses .trainer .trainer-rank .user-icon {
+    font-size: 22px;
+  }
+  
+  .courses a{
+    text-decoration: none;
+  }
+  
+  
+  

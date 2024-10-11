@@ -1,0 +1,21 @@
+.sitename {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .btn-getstarted {
+    font-weight: 600;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav .nav-link {
+      margin-right: 0;
+    }
+  }
+  
